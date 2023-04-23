@@ -6,10 +6,10 @@ export default function RouteGuard() {
   const navigate = useNavigate();
   useEffect(() => {
     // 判断当前用户登录
-    const isLogin = false;
-    if(!isLogin) {
-      navigate("/login");
-    }
+    // const isLogin = false;
+    // if(!isLogin) {
+    //   navigate("/login");
+    // }
   },[]);
 
   return (
